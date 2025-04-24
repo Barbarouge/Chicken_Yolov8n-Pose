@@ -11,8 +11,6 @@ This project focuses on real-time pose estimation for chickens using the Ultraly
 - [Results](#results)
 - [Live Predictions](#live-predictions)
 - [Visuals](#visuals)
-- [Future Work](#future-work)
-- [License](#license)
 
 ---
 
@@ -115,16 +113,3 @@ This project focuses on real-time pose estimation for chickens using the Ultraly
   - Batch 1082  
     ![Batch 1082](images/train_batch1082.jpeg)
 
----
-
-## Future Work
-
-- Extend dataset with more varied chicken poses.
-- Experiment with YOLOv8m and YOLOv8l models for better accuracy.
-- Deploy model for edge devices (e.g., Raspberry Pi).
-
----
-
-## License
-
-This project is licensed under the MIT License.
