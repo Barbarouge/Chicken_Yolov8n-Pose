@@ -31,6 +31,26 @@ This project focuses on real-time pose estimation for chickens using the Ultraly
 
    ![Skeleton Definition](images/Cvat_Skeleton.png)
 
+   ### 🔍 Keypoint Analysis and Potential Inferences
+
+   Each keypoint provides geometric and behavioral insight:
+
+   - **Head Top ↔ Beak ↔ Body Center**: Forms the head-neck-torso alignment; useful for detecting feeding, drinking, and pecking behaviors.
+   - **Body Center ↔ Tail**: Defines the body axis and balance; tail drop may indicate resting or discomfort.
+   - **Left/Right Foot & Left/Right Claw**: Crucial for walking, standing, or balance assessment. Differences in limb angles can indicate limp or injury.
+
+    ### 📌 Table 2: Description of Chicken Poses
+
+   | Pose           | Description                                                                 |
+   |----------------|-----------------------------------------------------------------------------|
+   | Standing       | Body upright, both feet flat on the ground, neck extended, wings tucked.   |
+   | Drinking       | Beak directed downward, often toward a water source, neck curved.          |
+   | Pecking        | Quick downward head movement, head near ground.                            |
+   | Walking        | One foot slightly lifted, limbs alternating in motion.                     |
+   | Spreading Wings| Wings extended outward, body often upright and still.                      |
+   | Resting        | Body low to ground, legs folded, head possibly tucked into feathers.       |
+   | Preening       | Beak touching feathers, often near chest or wing area, curved neck.        |
+
 2. **Labeling in CVAT**  
    286 frames from a chicken video were labeled.
 
